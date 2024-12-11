@@ -1,0 +1,32 @@
+:root{
+    --white-bg-color: #FFFFFF;
+    --main-blue-color: #343951;
+    --secondary-bg-color: #F5F6FC;
+    --sidebar-tooltip-bg-color: #464C61;
+    --main-yellow-color: #FF9F00;
+    --secondary-yellow-color: #FFB233;
+    --main-green-color: #4AC29D;
+    ---blue-color: #689FF8;
+    --main-red-color: #FF6860;
+    --font-color: #858A9D;
+    --icon-gray-color: #C4C4C4;
+    --circle-outline-color: #BEC0C8;
+    --grey-fill-color: #BCBECA;
+    --linear-gradient: linear-gradient(90deg, rgba(255,159,0,1) 0%, rgba(255,104,96,1) 50%, rgba(104,158,248,1) 100%); 
+}
+
+body{
+    height: 100%;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 1fr 3.27fr 1.47fr; /*172px 562px 252px*/
+    gap: 16px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
