@@ -4,9 +4,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nerdery Layout Challenge</title>
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/sidebar-right.css">
+    <link rel="stylesheet" href="./styles/sidebar-left.css">
     <link rel="stylesheet" href="./styles/main.css">
 </head>
 <body>
-    
+    <aside id="sidebar-left">
+        <section class="upper-container">
+            <div class="gradient-box"></div>
+            <nav>
+                <div class="icon-text-container"> <!--Refactor to use semantic elements (ul,li)-->
+                    <span id="selection-notch"></span>
+                    <span class="square-icon"></span>
+                    <p>Home</p>
+                </div>
+                <div class="icon-text-container">
+                    <span class="square-icon"></span>
+                    <p>My Files</p>
+                </div>
+                <div class="icon-text-container">
+                    <span class="square-icon"></span>
+                    <p>Recent Files</p>
+                </div>
+                <div class="icon-text-container">
+                    <span class="square-icon"></span>
+                    <p>Shared Files</p>
+                </div>
+                <div class="icon-text-container">
+                    <span class="square-icon"></span>
+                    <p>File Request</p>
+                </div>
+                <div class="icon-text-container">
+                    <span class="square-icon"></span>
+                    <p>Trash</p>
+                </div>
+            </nav>
+        </section>
+        <section class="lower-container">
+            <div class="tooltip-container">
+                <div class="icon-text-tooltip">
+                    <span class="square-icon"></span>
+                    <p>Upload Files</p>
+                </div>
+                <div class="icon-text-tooltip">
+                    <span class="square-icon"></span>
+                    <p>Upload Folder</p>
+                </div>
+                <div class="icon-text-tooltip">
+                    <span class="square-icon"></span>
+                    <p>New Folder</p>
+                </div>
+                <div class="icon-text-tooltip">
+                    <span class="square-icon"></span>
+                    <p>More</p>
+                </div>
+                <span class="triangle"></span>
+            </div>
+            <div class="button-container">
+                <p>Create New</p>
+                <button>
+                    &plus;
+                </button>
+            </div>
+        </section>
+    </aside>
+    <main></main>
+    <aside id="sidebar-right">
+    </aside>
 </body>
 </html>
