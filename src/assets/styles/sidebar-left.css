@@ -1,0 +1,130 @@
+#sidebar-left {
+  background-color: var(--main-blue-color);
+}
+
+#selection-notch {
+  width: 7px;
+  height: 44px;
+  border-radius: 0 7px 7px 0;
+  background-color: white;
+  margin: 0;
+  position: absolute;
+}
+
+.upper-container {
+  flex: 0.53;
+  border-bottom: 1px solid var(--sidebar-tooltip-bg-color);
+  display: grid;
+  grid-template-rows: 1fr 4.5fr;
+}
+
+.nav-list {
+  display: contents;
+}
+
+.nav-list > .nav-list-item:nth-child(1) span {
+  border: 1px solid white;
+}
+
+.nav-list > .nav-list-item:nth-child(1) {
+  color: white;
+}
+
+.square-icon {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid var(--font-color);
+}
+
+.nav-list-item {
+  color: var(--font-color);
+  font-weight: 400;
+  font-size: 10px;
+  padding-top: 20px;
+  display: flex;
+  width: 100%;
+  gap: 19px;
+  align-items: center;
+}
+
+.nav-list-item > span {
+  margin-left: 2.1rem;
+}
+
+.gradient-box {
+  width: 74px;
+  height: 21px;
+  border-radius: 5px;
+  background: var(--linear-gradient);
+  align-self: center;
+  margin-left: 2.2rem;
+}
+
+.lower-container {
+  flex: 0.45;
+  gap: 13px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.tooltip-container {
+  position: relative;
+  font-size: 10px;
+  background-color: var(--sidebar-tooltip-bg-color);
+  gap: 5px;
+  padding: 20px 15px;
+  border-radius: 9px;
+}
+
+.tooltip-container > div span {
+  border: 1px solid white;
+}
+
+.icon-text-tooltip {
+  display: flex;
+  width: 100%;
+  gap: 7px;
+  align-items: center;
+  color: var(--circle-outline-color);
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 12px solid var(--sidebar-tooltip-bg-color);
+  position: absolute;
+  bottom: -8px;
+  left: 15%;
+}
+
+.button-container {
+  display: flex;
+  border-radius: 7px;
+  margin-top: 8px;
+  margin-bottom: 27px;
+  background-color: var(--main-yellow-color);
+  padding: 4px 5px;
+  font-size: 10px;
+  color: white;
+}
+
+.button-container > p {
+  flex: 0.8;
+  align-self: center;
+  text-align: center;
+  font-weight: 400;
+}
+
+.button-container > button {
+  flex: 0.2;
+  width: 21px;
+  height: 21px;
+  color: white;
+  border: none;
+  background-color: var(--secondary-yellow-color);
+  border-radius: 4px;
+}

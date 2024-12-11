@@ -1,0 +1,146 @@
+/* Base mobile styles (up to 480px) */
+@media screen and (max-width: 480px) {
+  body {
+    display: block;
+  }
+  .container {
+    padding: 15px;
+    margin: 0;
+    width: 100%;
+  }
+
+  .search-bar {
+    margin: 0 10px;
+  }
+
+  /* Cards container*/
+  .recently-used-cards-container,
+  .share-with-me-cards-container {
+    justify-content: center;
+    grid-template-columns: 1fr;
+
+    padding: 0 10px;
+    gap: 15px;
+  }
+
+  .recently-used-card {
+    grid-template-columns: 4fr 1fr;
+    padding: 15px;
+  }
+
+  /* Table  */
+  .table-header {
+    display: none;
+  }
+
+  .table-row {
+    flex-direction: column;
+    padding: 15px;
+    margin-bottom: 10px;
+    gap: 5px;
+  }
+
+  .table-row > :nth-child(2) {
+    color: var(--main-blue-color);
+    font-size: 20px;
+    flex: 0.45;
+  }
+
+  .table-row > :nth-child(5) {
+    align-self: center;
+  }
+
+  .share-with-me-card > :nth-child(1) {
+    justify-content: center;
+  }
+
+  /* Card text adjustments */
+  .card-text {
+    text-align: center;
+    padding: 12px;
+  }
+  .card-text > h3 {
+    font-size: 14px;
+  }
+
+  .card-text > p {
+    font-size: 10px;
+  }
+}
+
+/* Tablet styles (481px to 768px) */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  body {
+    display: block;
+  }
+  .container {
+    padding: 20px;
+  }
+
+  .recently-used-cards-container,
+  .share-with-me-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, minmax(90px, 1fr));
+    gap: 15px;
+    padding: 12px;
+  }
+
+  .table-row {
+    padding: 12px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    padding: 25px 15px;
+  }
+
+  .recently-used-cards-container,
+  .share-with-me-cards-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+
+  .recently-used-card,
+  .share-with-me-card {
+    padding: 15px;
+  }
+}
+
+/* Shared responsive styles */
+@media screen and (max-width: 768px) {
+  body {
+    display: block;
+  }
+  .recently-used-title,
+  .recent-files-title,
+  .share-with-me-title {
+    font-size: 18px;
+    margin: 20px 0 15px;
+  }
+
+  .search-bar > input {
+    font-size: 12px;
+  }
+
+  .square-with-shadow {
+    margin-left: 10px;
+  }
+
+  .circle-span {
+    width: 16px;
+    height: 16px;
+  }
+
+  .table-body {
+    gap: 10px;
+  }
+
+  #sidebar-right {
+    display: none;
+  }
+
+  #sidebar-left {
+    display: none;
+  }
+}

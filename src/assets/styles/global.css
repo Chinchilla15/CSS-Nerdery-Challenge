@@ -1,0 +1,147 @@
+:root {
+  --white-bg-color: #ffffff;
+  --main-blue-color: #343951;
+  --secondary-bg-color: #f5f6fc;
+  --sidebar-tooltip-bg-color: #464c61;
+  --main-yellow-color: #ff9f00;
+  --secondary-yellow-color: #ffb233;
+  --main-green-color: #4ac29d;
+  --blue-color: #689ff8;
+  --main-red-color: #ff6860;
+  --font-color: #858a9d;
+  --icon-gray-color: #c4c4c4;
+  --circle-outline-color: #bec0c8;
+  --grey-fill-color: #bcbeca;
+  --linear-gradient: linear-gradient(
+    90deg,
+    rgba(255, 159, 0, 1) 0%,
+    rgba(255, 104, 96, 1) 50%,
+    rgba(104, 158, 248, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 3.27fr 1.47fr; /*172px 562px 252px*/
+  gap: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  background-color: var(--secondary-bg-color);
+}
+
+nav {
+  gap: 16px;
+}
+
+#root {
+  display: contents;
+}
+
+.yellow-box,
+.blue-box,
+.green-box,
+.grey-box,
+.red-box {
+  display: block;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+}
+
+.yellow-box {
+  background-color: var(--main-yellow-color);
+}
+
+.blue-box {
+  background-color: var(--blue-color);
+}
+
+.green-box {
+  background-color: var(--main-green-color);
+}
+
+.grey-box {
+  background-color: var(--grey-fill-color);
+}
+
+.red-box {
+  background-color: var(--main-red-color);
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.flex-column-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.self-center {
+  align-self: center;
+  justify-self: center;
+}
+
+.card-base {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0px 4px 16px 0px #3a3a3a12;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 400;
+  color: var(--main-blue-color);
+}
+
+.cards-container {
+  padding-right: 35px;
+  display: grid;
+  gap: 13px;
+}
+
+.square {
+  display: block;
+  width: 30px;
+  height: 26px;
+  align-self: center;
+}
