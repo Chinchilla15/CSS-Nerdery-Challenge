@@ -70,7 +70,7 @@ function Main() {
               <div className="card-circle-container">
                 <span className="circle-span"></span>
                 <span className="circle-span circle-span-offset"></span>
-                <span className="circle-span circle-span-offset">3+</span>
+                <span className="circle-span circle-span-offset">+3</span>
               </div>
               <div className="card-text">
                 <h3>Client Documents</h3>

@@ -14,7 +14,7 @@
 }
 
 .upper-container {
-  flex: 0.55;
+  flex: 0.53;
   border-bottom: 1px solid var(--sidebar-tooltip-bg-color);
   display: grid;
   grid-template-rows: 1fr 4.5fr;
@@ -51,7 +51,7 @@
 }
 
 .nav-list-item > span {
-  margin-left: 2.2rem;
+  margin-left: 2.1rem;
 }
 
 .gradient-box {
@@ -112,6 +112,7 @@
 .button-container {
   display: flex;
   border-radius: 7px;
+  margin-top: 8px;
   margin-bottom: 27px;
   background-color: var(--main-yellow-color);
   padding: 4px 5px;
