@@ -1,6 +1,6 @@
 # Nerdery Layout Challenge
 
-- **Live Site URL:** [CSS Nerdery Challenge](#)
+- **Live Site URL:** [CSS Nerdery Challenge](https://css-nerdery-challenge.vercel.app/)
 
 ### Built With
 
