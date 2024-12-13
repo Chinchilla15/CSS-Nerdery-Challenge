@@ -1,9 +1,9 @@
 function SidebarLeft() {
   return (
-    <aside id="sidebar-left">
+    <aside id="sidebar-left" className="flex-col">
       <section className="upper-container">
         <div className="gradient-box"></div>
-        <nav>
+        <nav className="flex-column-center">
           <ul className="nav-list">
             <li className="nav-list-item">
               <span id="selection-notch"></span>
@@ -33,8 +33,8 @@ function SidebarLeft() {
           </ul>
         </nav>
       </section>
-      <section className="lower-container">
-        <div className="tooltip-container">
+      <section className="lower-container flex-col">
+        <div className="tooltip-container flex-column-center">
           <div className="icon-text-tooltip">
             <span className="square-icon"></span>
             <p>Upload Files</p>

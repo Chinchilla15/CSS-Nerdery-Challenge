@@ -5,6 +5,7 @@ import "./assets/styles/global.css";
 import "./assets/styles/main.css";
 import "./assets/styles/sidebar-left.css";
 import "./assets/styles/sidebar-right.css";
+import "./assets/styles/queries.css";
 
 function App() {
   return (

@@ -6,16 +6,8 @@
 
 .user-info-container {
   border-bottom: 1px solid #e0e7f1;
-  display: flex;
-  align-items: center;
   justify-content: space-around;
   gap: 20px;
-}
-
-.icon-container,
-.name-and-icon {
-  display: flex;
-  align-items: center;
 }
 
 .icon-container {
@@ -45,10 +37,6 @@
 }
 
 .storage-info-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   gap: 20px;
 }
 
@@ -70,15 +58,10 @@
 }
 
 .white-circle {
-  display: flex;
-  flex-direction: column;
   width: 115px;
   height: 115px;
   border-radius: 50%;
   background-color: white;
-  justify-content: center;
-  align-items: center;
-  position: relative;
 }
 
 .white-circle > p:nth-child(1) {
@@ -109,8 +92,6 @@
 
 .item-list {
   gap: 8px;
-  display: flex;
-  align-items: center;
   justify-content: space-between;
   border-bottom: 1px solid #e0e7f1;
   padding-bottom: 9px;
@@ -135,37 +116,6 @@
   color: var(--font-color);
 }
 
-.yellow-box,
-.blue-box,
-.green-box,
-.grey-box,
-.red-box {
-  display: block;
-  width: 28px;
-  height: 28px;
-  border-radius: 8px;
-}
-
-.yellow-box {
-  background-color: var(--main-yellow-color);
-}
-
-.blue-box {
-  background-color: var(--blue-color);
-}
-
-.green-box {
-  background-color: var(--main-green-color);
-}
-
-.grey-box {
-  background-color: var(--grey-fill-color);
-}
-
-.red-box {
-  background-color: var(--main-red-color);
-}
-
 .space-details {
   background-color: white;
   border-radius: 4px;
@@ -178,7 +128,6 @@
   font-size: 8px;
   color: var(--main-blue-color);
   font-weight: 500;
-  line-height: 9px;
 }
 
 .cta-container {
@@ -186,10 +135,6 @@
 }
 
 .cta-box {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   background-color: white;
   border-radius: 18px;
   padding: 16px 38px;
