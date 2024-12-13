@@ -1,0 +1,56 @@
+:root {
+  --white-bg-color: #ffffff;
+  --main-blue-color: #343951;
+  --secondary-bg-color: #f5f6fc;
+  --sidebar-tooltip-bg-color: #464c61;
+  --main-yellow-color: #ff9f00;
+  --secondary-yellow-color: #ffb233;
+  --main-green-color: #4ac29d;
+  --blue-color: #689ff8;
+  --main-red-color: #ff6860;
+  --font-color: #858a9d;
+  --icon-gray-color: #c4c4c4;
+  --circle-outline-color: #bec0c8;
+  --grey-fill-color: #bcbeca;
+  --linear-gradient: linear-gradient(
+    90deg,
+    rgba(255, 159, 0, 1) 0%,
+    rgba(255, 104, 96, 1) 50%,
+    rgba(104, 158, 248, 1) 100%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  height: 100%;
+  min-height: 100vh;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: 1fr 3.27fr 1.47fr; /*172px 562px 252px*/
+  gap: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  background-color: var(--secondary-bg-color);
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
