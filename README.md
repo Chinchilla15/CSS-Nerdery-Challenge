@@ -20,3 +20,5 @@ This project is a simple dashboard mockup. The challenge was to follow the Figma
 **Final Design**
 
 ![Final Design](./src/assets/images/Final%20Result.png?raw=true)
+
+# Code Review PR
